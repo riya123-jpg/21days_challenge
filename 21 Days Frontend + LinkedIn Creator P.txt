@@ -1,0 +1,103 @@
+🚀 21 Days Frontend + LinkedIn Creator Plan
+🔹 Phase 1: Foundation (Day 1–7)
+
+Goal: Strong base + clear thinking
+
+Day 1:
+👉 HTML basics + page structure
+👉 Project: Simple webpage (heading, paragraph, image)
+
+Day 2:
+👉 Semantic HTML (header, section, footer)
+👉 Project: Blog layout
+
+Day 3:
+👉 Forms + inputs
+👉 Project: Contact form
+
+Day 4:
+👉 CSS basics (colors, fonts, selectors)
+👉 Project: Styled webpage
+
+Day 5:
+👉 Box model + spacing
+👉 Project: Card UI
+
+Day 6:
+👉 Flexbox
+👉 Project: Navbar + layout
+
+Day 7:
+👉 Grid + responsive basics
+👉 Project: Simple responsive layout
+
+👉 Post idea Day 7:
+“7 days of frontend — what I thought vs reality”
+
+🔹 Phase 2: Logic + Interaction (Day 8–14)
+
+Goal: Website ko “alive” banana
+
+Day 8:
+👉 JavaScript basics (variables, functions)
+
+Day 9:
+👉 DOM manipulation
+👉 Project: Button click change text
+
+Day 10:
+👉 Events
+👉 Project: Counter app
+
+Day 11:
+👉 Conditions + loops
+👉 Project: Simple quiz logic
+
+Day 12:
+👉 Arrays + objects
+👉 Project: To-do list (basic)
+
+Day 13:
+👉 Local storage
+👉 Project: Save to-do data
+
+Day 14:
+👉 Mini project combine
+👉 Project: Complete To-do App
+
+👉 Post idea Day 14:
+“From static to interactive — biggest shift I noticed”
+
+🔹 Phase 3: Modern Frontend (Day 15–21)
+
+Goal: React + smart tools + creator edge
+
+Day 15:
+👉 What is React + setup
+
+Day 16:
+👉 Components + props
+👉 Project: Simple UI
+
+Day 17:
+👉 useState
+👉 Project: Counter in React
+
+Day 18:
+👉 Lists + rendering
+👉 Project: Dynamic list
+
+Day 19:
+👉 Forms in React
+👉 Project: Input handling
+
+Day 20:
+👉 Styling (introduce Tailwind CSS)
+👉 Project: Styled React UI
+
+Day 21:
+👉 Final project (mini app)
+👉 Example: Notes app / Task manager
+
+👉 Final Post:
+“21 days, 21 builds — here’s what changed in me”
