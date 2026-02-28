@@ -1,103 +1,78 @@
-🚀 21 Days Frontend + LinkedIn Creator Plan
-🔹 Phase 1: Foundation (Day 1–7)
+🚀 21 Days Frontend + Creator Plan
+🧱 Phase 1: Foundation + Visibility (Day 1–7)
 
-Goal: Strong base + clear thinking
+👉 Goal: Basics clear + visible progress
 
 Day 1:
-👉 HTML basics + page structure
-👉 Project: Simple webpage (heading, paragraph, image)
+HTML basics + structure → Personal page
 
 Day 2:
-👉 Semantic HTML (header, section, footer)
-👉 Project: Blog layout
+CSS basics → Same page styling
 
 Day 3:
-👉 Forms + inputs
-👉 Project: Contact form
+Semantic HTML → Portfolio/blog layout
 
 Day 4:
-👉 CSS basics (colors, fonts, selectors)
-👉 Project: Styled webpage
+Flexbox → Layout (cards / before-after)
 
 Day 5:
-👉 Box model + spacing
-👉 Project: Card UI
+Box model + spacing → Clean UI improvement
 
 Day 6:
-👉 Flexbox
-👉 Project: Navbar + layout
+Navbar + layout practice
 
 Day 7:
-👉 Grid + responsive basics
-👉 Project: Simple responsive layout
+Mini project combine (portfolio v1)
+👉 + Recap post (very important)
 
-👉 Post idea Day 7:
-“7 days of frontend — what I thought vs reality”
+⚡ Phase 2: Logic + Interaction (Day 8–14)
 
-🔹 Phase 2: Logic + Interaction (Day 8–14)
-
-Goal: Website ko “alive” banana
+👉 Goal: Website ko “alive” banana
 
 Day 8:
-👉 JavaScript basics (variables, functions)
+JavaScript basics (variables, functions)
 
 Day 9:
-👉 DOM manipulation
-👉 Project: Button click change text
+DOM manipulation → Text change project
 
 Day 10:
-👉 Events
-👉 Project: Counter app
+Events → Button click / toggle
 
 Day 11:
-👉 Conditions + loops
-👉 Project: Simple quiz logic
+Conditions → Simple logic UI
 
 Day 12:
-👉 Arrays + objects
-👉 Project: To-do list (basic)
+Arrays + objects → Data handling
 
 Day 13:
-👉 Local storage
-👉 Project: Save to-do data
+Local storage → Save data
 
 Day 14:
-👉 Mini project combine
-👉 Project: Complete To-do App
+Mini project (To-do app basic)
+👉 + Recap post
 
-👉 Post idea Day 14:
-“From static to interactive — biggest shift I noticed”
+🚀 Phase 3: Modern Frontend (Day 15–21)
 
-🔹 Phase 3: Modern Frontend (Day 15–21)
-
-Goal: React + smart tools + creator edge
+👉 Goal: React + real-world feel
 
 Day 15:
-👉 What is React + setup
+React intro + setup
 
 Day 16:
-👉 Components + props
-👉 Project: Simple UI
+Components + props
 
 Day 17:
-👉 useState
-👉 Project: Counter in React
+useState → Counter
 
 Day 18:
-👉 Lists + rendering
-👉 Project: Dynamic list
+Lists rendering
 
 Day 19:
-👉 Forms in React
-👉 Project: Input handling
+Forms in React
 
 Day 20:
-👉 Styling (introduce Tailwind CSS)
-👉 Project: Styled React UI
+Styling (introduce Tailwind CSS)
 
 Day 21:
-👉 Final project (mini app)
-👉 Example: Notes app / Task manager
-
-👉 Final Post:
-“21 days, 21 builds — here’s what changed in me”
+Final mini project (Notes / Task app)
+👉 + Final reflection post

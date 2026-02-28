@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #1e3a3a;
+      }
+      .after {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+        transition: 0.3s;
+      }
+      .container {
+        display: block;
+        padding: 2rem;
+      }
+      .before-flex,
+      .after-flex {
+        margin-bottom: 40px;
+      }
+      .before-flex {
+        margin-bottom: 60px;
+      }
+      .before-flex h1 {
+        color: #ff6b6b; /* red-ish for ❌ */
+      }
+
+      .after-flex h1 {
+        color: #1abc9c; /* green-ish for ✅ */
+      }
+      .card {
+        background-color: antiquewhite;
+        width: 220px;
+        padding-inline: 1rem;
+        padding-block: 0.5em;
+        border-radius: 0.5rem;
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 5px;
+      }
+      .before-flex .cards {
+        margin: auto;
+        width: fit-content;
+      }
+      h1 {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-size: 28px;
+        margin-bottom: 15px;
+        color: bisque;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="before-flex">
+        <h1>Before Flexbox</h1>
+        <div class="cards">
+          <div class="card">
+            <h2>HTML</h2>
+            <p>Building the structure</p>
+          </div>
+          <div class="card">
+            <h2>CSS</h2>
+            <p>Making things look better</p>
+          </div>
+          <div class="card">
+            <h2>JavaScript</h2>
+            <p>Adding logic & interaction</p>
+          </div>
+          <div class="card">
+            <h2>React</h2>
+            <p>Where I'm heading next</p>
+          </div>
+        </div>
+      </div>
+      <div class="after-flex">
+        <h1>After Flexbox</h1>
+        <div class="cards after">
+          <div class="card">
+            <h2>HTML</h2>
+            <p>Building the structure</p>
+          </div>
+          <div class="card">
+            <h2>CSS</h2>
+            <p>Making things look better</p>
+          </div>
+          <div class="card">
+            <h2>JavaScript</h2>
+            <p>Adding logic & interaction</p>
+          </div>
+          <div class="card">
+            <h2>React</h2>
+            <p>Where I'm heading next</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
