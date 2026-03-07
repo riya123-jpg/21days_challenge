@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Developer Dashboard</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+
+  <body>
+    <div class="dashboard">
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <h2 class="logo">DevUI</h2>
+
+        <nav>
+          <a class="active">
+            <i data-lucide="layout-dashboard"></i>
+            Dashboard
+          </a>
+
+          <a>
+            <i data-lucide="folder"></i>
+            Projects
+          </a>
+
+          <a>
+            <i data-lucide="bar-chart"></i>
+            Analytics
+          </a>
+
+          <a>
+            <i data-lucide="message-circle"></i>
+            Messages
+          </a>
+
+          <a>
+            <i data-lucide="settings"></i>
+            Settings
+          </a>
+        </nav>
+      </aside>
+
+      <!-- MAIN -->
+      <main class="main">
+        <!-- HEADER -->
+        <header class="header">
+          <input type="text" placeholder="Search..." />
+
+          <div class="profile">
+            <i data-lucide="bell"></i>
+            <i data-lucide="user"></i>
+          </div>
+        </header>
+
+        <!-- STATS -->
+        <section class="stats">
+          <div class="card stat">
+            <i data-lucide="folder"></i>
+
+            <h3>12</h3>
+
+            <p>Projects</p>
+
+            <span class="meta">+2 this week</span>
+          </div>
+
+          <div class="card stat">
+            <i data-lucide="check-circle"></i>
+
+            <h3>48</h3>
+
+            <p>Tasks Done</p>
+
+            <span class="meta">+5 today</span>
+          </div>
+
+          <div class="card stat">
+            <i data-lucide="users"></i>
+
+            <h3>6</h3>
+
+            <p>Clients</p>
+
+            <span class="meta">+1 new</span>
+          </div>
+
+          <div class="card stat">
+            <i data-lucide="dollar-sign"></i>
+
+            <h3>$1200</h3>
+
+            <p>Revenue</p>
+
+            <span class="meta">+20% growth</span>
+          </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="projects">
+          <h3>Recent Projects</h3>
+
+          <div class="project">
+            <div>
+              <h4>Moodify</h4>
+              <p>Mood-based music UI</p>
+            </div>
+
+            <span class="status done">Completed</span>
+          </div>
+
+          <div class="project">
+            <div>
+              <h4>Movie Platform</h4>
+              <p>Movie listing UI</p>
+            </div>
+
+            <span class="status progress">In Progress</span>
+          </div>
+
+          <div class="project">
+            <div>
+              <h4>E-Commerce Website</h4>
+              <p>Shopping UI & Product pages</p>
+            </div>
+
+            <span class="status pending">Upcoming</span>
+          </div>
+
+          <div class="project">
+            <div>
+              <h4>Portfolio Website</h4>
+              <p>Personal developer portfolio</p>
+            </div>
+
+            <span class="status done">Completed</span>
+          </div>
+        </section>
+
+        <!-- ACTIVITY -->
+        <section class="activity">
+          <h3>Recent Activity</h3>
+
+          <div class="activity-item">
+            <span class="dot"></span>
+            Completed UI Project
+          </div>
+
+          <div class="activity-item">
+            <span class="dot"></span>
+            Pushed code to GitHub
+          </div>
+
+          <div class="activity-item">
+            <span class="dot"></span>
+            Updated portfolio
+          </div>
+
+          <div class="activity-item">
+            <span class="dot"></span>
+            Fixed responsive bug
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

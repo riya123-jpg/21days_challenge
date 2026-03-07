@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learning Grid</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section class="container">
+      <h1>My Learning Journey</h1>
+
+      <div class="grid">
+        <!-- BIG CARD -->
+        <div class="card big">
+          <i data-lucide="rocket"></i>
+          <h2>Frontend Development</h2>
+          <p>
+            Building responsive and modern UI using HTML, CSS, and
+            JavaScript.<br />Focused on building real-world projects and
+            scalable UI systems.
+          </p>
+          <div class="tags">
+            <span>UI Design</span>
+            <span>Responsive</span>
+            <span>Performance</span>
+            <span>Accessibility</span>
+          </div>
+        </div>
+
+        <!-- SMALL CARDS -->
+        <div class="card">
+          <i data-lucide="file-code"></i>
+          <h3>HTML</h3>
+          <p>Structure of the web</p>
+          <div class="tags">
+            <span>HTML5</span>
+            <span>Semantic</span>
+            <span>SEO</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <i data-lucide="palette"></i>
+          <h3>CSS</h3>
+          <p>Styling and layouts</p>
+          <div class="tags">
+            <span>Flexbox</span>
+            <span>Grid</span>
+            <span>Animations</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <i data-lucide="zap"></i>
+          <h3>JavaScript</h3>
+          <p>Logic & interactivity</p>
+          <div class="tags">
+            <span>DOM</span>
+            <span>Events</span>
+            <span>ES6+</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <i data-lucide="atom"></i>
+          <h3>React</h3>
+          <p>Dynamic UI building</p>
+          <div class="tags">
+            <span>Components</span>
+            <span>Hooks</span>
+            <span>State</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <i data-lucide="server"></i>
+          <h3>Backend</h3>
+          <p>APIs & server logic</p>
+          <div class="tags">
+            <span>API</span>
+            <span>Node.js</span>
+            <span>Database</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
