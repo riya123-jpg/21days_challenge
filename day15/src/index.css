@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: rgb(29, 29, 29);
+  color: azure;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0f172a;
+}
+button {
+  background: linear-gradient(135deg, #0003a6, #000c95);
+}
+button:active {
+  transform: scale(0.97);
+}
